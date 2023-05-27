@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "price": 12345,
+      "name": "Điện thoại di động update",
+      "image": "https://i.pinimg.com/550x/3a/ac/86/3aac86897f6d9b5abd80aa4388ef22a8.jpg"
+    },
+    {
+      "id": 2,
+      "price": 12345,
+      "name": "Điện thoại di động 1",
+      "image": "https://i.pinimg.com/550x/3a/ac/86/3aac86897f6d9b5abd80aa4388ef22a8.jpg"
+    },
+    {
+      "name": "acer",
+      "price": "123456",
+      "id": 3,
+      "image": "https://i.pinimg.com/550x/3a/ac/86/3aac86897f6d9b5abd80aa4388ef22a8.jpg"
+    }
+  ]
+}
