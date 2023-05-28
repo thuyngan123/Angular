@@ -1,0 +1,23 @@
+<div class="container">
+  <h3>DANH SACH SAN PHAM</h3>
+  <table class="table table-borrdered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>PRICE</th>
+        <th>ACTION</th>
+      </tr>
+    </thead>
+    <tbody *ngIf="products && products.length">
+      <tr *ngFor="let product of products; index as i">
+        <td>{{i+1}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td>
+          <button class="btn btn-primary" (click)="removeItem(product.id)">Xoa</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

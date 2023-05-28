@@ -1,5 +1,25 @@
 {
   "products": [
-    {}
+    {
+      "id": 1,
+      "name": "dfgh",
+      "price": 1234,
+      "desc": "ádfgh",
+      "images": "https://img5.thuthuatphanmem.vn/uploads/2021/11/12/hinh-anh-anime-don-gian-hinh-nen-anime-don-gian-ma-dep_092443354.png"
+    },
+    {
+      "id": 1,
+      "name": "dfgh",
+      "price": 1234,
+      "desc": "ádfgh",
+      "images": "https://img5.thuthuatphanmem.vn/uploads/2021/11/12/hinh-anh-anime-don-gian-hinh-nen-anime-don-gian-ma-dep_092443354.png"
+    },
+    {
+      "id": 1,
+      "name": "dfgh",
+      "price": 1234,
+      "desc": "ádfgh",
+      "images": "https://img5.thuthuatphanmem.vn/uploads/2021/11/12/hinh-anh-anime-don-gian-hinh-nen-anime-don-gian-ma-dep_092443354.png"
+    }
   ]
 }
