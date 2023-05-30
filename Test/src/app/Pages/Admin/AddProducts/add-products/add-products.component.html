@@ -1,0 +1,14 @@
+<div class="container">
+  <form (ngSubmit)="onHandleSubmit()">
+    <div>
+      <label for="">Tên sản phẩm</label>
+      <input type="text" [(ngModel)]="products.name" name="name">
+    </div>
+    <div>
+      <label for="">Gía sản phẩm</label>
+      <input type="text" [(ngModel)]="products.price" name="price">
+    </div>
+    <button type="submit">Thêm</button>
+    {{products|json}}
+  </form>
+</div>

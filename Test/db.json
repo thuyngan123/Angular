@@ -1,0 +1,9 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Điện thoại di động",
+      "price": 112345
+    }
+  ]
+}

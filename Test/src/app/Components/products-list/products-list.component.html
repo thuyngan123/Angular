@@ -1,0 +1,25 @@
+<div class="container">
+  <a routerLink="add">Them</a>
+  <h3>DANH SÁCH SẢN PHẨM</h3>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody *ngIf="products && products.length">
+      <tr *ngFor="let products of products; index as i">
+        <td>{{i+1}}</td>
+        <td>{{products.name}}</td>
+        <td>{{products.price}}</td>
+        <td>
+          <button class="btn btn-primary" (click)="removeItem(products.id)">Xóa</button>
+          <button class="btn btn-primary" routerLink="{{products.id}}/edit">Sua</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
